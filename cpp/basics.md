@@ -28,8 +28,8 @@ int main()
     std::cout << sizeof(void*) << "\n";
 }
 ```
-[!NOTE]
--sizeof() returns bytes, not bits.<br>
--Output depends on the platform's data model.<br>
--Modern UNIX-like 64-bit systems usually use LP64.<br>
--Windows 64-bit systems use LLP64.<br>
+>[!NOTE]
+> - 'sizeof()' returns bytes, not bits.
+> - Output depends on the platform's data model.
+> - Modern UNIX-like 64-bit systems usually use **LP64**.
+> - Windows 64-bit systems use **LLP64**.
