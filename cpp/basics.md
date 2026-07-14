@@ -27,7 +27,7 @@ int main()
     std::cout << sizeof(void*) << "\n";
 }
 ```
-## sizeoff() returns bytes, not bits.
-## Output depends on the platform's data model.
-## Modern UNIX-like 64-bit systems usually use LP64.
-## Windows 64-bit systems use LLP64.
+-sizeoff() returns bytes, not bits.
+-Output depends on the platform's data model.
+-Modern UNIX-like 64-bit systems usually use LP64.
+-Windows 64-bit systems use LLP64.
