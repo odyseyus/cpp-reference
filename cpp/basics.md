@@ -21,13 +21,15 @@ int main()
 
 int main()
 {
-    std::cout << sizeof(int) << "\n";//sizeof() returns bytes, not bits.
+    //sizeof() returns sizes in bytes, not in bits
+    std::cout << sizeof(int) << "\n";
     std::cout << sizeof(long) << "\n";
     std::cout << sizeof(long long) << "\n";
     std::cout << sizeof(void*) << "\n";
 }
 ```
--sizeoff() returns bytes, not bits.<br>
+[!NOTE]
+-sizeof() returns bytes, not bits.<br>
 -Output depends on the platform's data model.<br>
 -Modern UNIX-like 64-bit systems usually use LP64.<br>
 -Windows 64-bit systems use LLP64.<br>
