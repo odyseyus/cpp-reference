@@ -15,7 +15,7 @@ int main()
 - For windwos:https://learn.microsoft.com/en-us/windows/win32/winprog64/abstract-data-models.
 - Why did the Win64 team choose the LLP64 model?, Article: https://devblogs.microsoft.com/oldnewthing/20050131-00/?p=36563.
 
--You can actaully test this:
+## You can actaully test this:
 ```C++ 
 #include <iostream>
 
@@ -27,7 +27,7 @@ int main()
     std::cout << sizeof(void*) << "\n";
 }
 ```
-// -sizeoff() returns bytes, not bits.
-// Output depends on the platform's data model.
-// Modern UNIX-like 64-bit systems usually use LP64.
-// Windows 64-bit systems use LLP64.
+## sizeoff() returns bytes, not bits.
+## Output depends on the platform's data model.
+## Modern UNIX-like 64-bit systems usually use LP64.
+## Windows 64-bit systems use LLP64.
