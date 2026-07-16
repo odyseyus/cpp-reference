@@ -8,3 +8,6 @@
 - [Why did the Win64 team choose the LLP64 model?](https://devblogs.microsoft.com/oldnewthing/20050131-00/?p=36563)
 
 
+> [!NOTE]
+> [notes.md](notes.md) is incomplete, being lazy to finish it.
+
