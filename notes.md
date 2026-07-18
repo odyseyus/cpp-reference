@@ -1,7 +1,7 @@
 # Declaring Variable 
 
 - A declaration indroduces the name and the type of the vraiable to the complier  
-- Not every **declaration** is a **definition** but all **definition is a **declaration**'  
+- Not every **declaration** is a **definition** but all **definition is a **declaration**  
 ```cpp
 int main(){
     extern int x;   
