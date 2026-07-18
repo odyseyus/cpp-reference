@@ -5,3 +5,4 @@
 - [Abstract Data Models Windows](https://learn.microsoft.com/en-us/windows/win32/winprog64/abstract-data-models)
 - [Why did the Win64 team choose the LLP64 model?](https://devblogs.microsoft.com/oldnewthing/20050131-00/?p=36563)
 
+- [learncpp.com](https://learncpp.com)
